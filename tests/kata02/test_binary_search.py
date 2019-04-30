@@ -1,7 +1,6 @@
-from tests import kata02
-from tests.kata02.context import chop
-
 import unittest
+
+from code_kata.kata02 import chop
 
 
 class Kata02TestSuite(unittest.TestCase):

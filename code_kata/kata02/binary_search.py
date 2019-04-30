@@ -1,7 +1,7 @@
 from builtins import len
 
 
-def chop(key, array):
+def chop(key: int, array: list) -> int:
     if array is None or len(array) == 0:
         return -1
     length = len(array)
